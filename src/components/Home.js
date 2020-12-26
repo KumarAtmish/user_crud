@@ -33,6 +33,8 @@ const Home = () => {
               <th scope="col">Name</th>
               <th scope="col">User Name</th>
               <th scope="col">Email</th>
+              <th scope="col">Phone</th>
+              <th scope="col">Website</th>
               <th>Action</th>
             </tr>
           </thead>
@@ -43,6 +45,8 @@ const Home = () => {
                 <td>{user.name}</td>
                 <td>{user.username}</td>
                 <td>{user.email}</td>
+                <th>{user.phone}</th>
+                <th>{user.website}</th>
                 <td>
                   <Link
                     className="btn btn-primary mr-2"
